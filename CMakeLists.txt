@@ -24,6 +24,11 @@ add_action_files(
   GoToPose.action
 )
 
+add_service_files(
+  FILES
+  SetXY.srv
+)
+
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES

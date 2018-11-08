@@ -17,6 +17,7 @@ add_message_files(
   TargetSource.msg
   State.msg
   BlinkMScript.msg
+  BlinkMSequence.msg
 )
 
 # Generate actions in the 'action' folder
